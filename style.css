@@ -2,5 +2,88 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
+    font-family: "Kulim Park", sans-serif;
+    border: 0;
+}
+
+:root {
+    --background: #000000;
+    --primeiro-texto: #FFFFFF;
+    --segundo-texto: #666666;
+    --btn: #DF994E;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./src/assets/background.png);
+    background-size: cover;
+    padding: 5vh;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-menu {
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: white;
+}
+
+.texto-banner {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-banner h1 {
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+.texto-banner p {
+    color: var(--btn);
+    font-size: 1.5rem;
+    margin-top: 2vh;
+}
+
+a {
+    color: var(--primary-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--btn);
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: orange;
+    width: 30%;
+    text-align: center;
+    padding: 2vh;
+    color: var(--background);
+}
+
+.btn a {
+    color: var(--background);
+    cursor: pointer;
 }
