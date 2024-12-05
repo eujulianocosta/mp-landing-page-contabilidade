@@ -59,4 +59,11 @@ Estruturar páginas de forma organizada.
 - Estilização de elementos de texto e botões.
 - Efeitos de hover
 
+#### ADICIONAIS CRIADO POR JULIANO COSTA
+
 https://eujulianocosta.github.io/mp-landing-page-contabilidade/
+
+1 - Rolagem em JS para com ancoras para a pagina rolar para cada Menu.
+2 - Criado a bolinha em JS para que a pagina ao final volte ao inicio e quando chegue no banner rotativo ela desapareça.
+3 - Adicionado ao final da pagina no footer os links das redes sociais como target blank.
+4 - Adicionado border-radius nos BTN que estavam gigantes e diminuido os tamanhos de 30px para 20px.

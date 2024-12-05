@@ -2,39 +2,174 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <title>Landing Page Contabilidade</title>
+        href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JC Contabilidade</title>
 </head>
 
 <body>
-    <header>
-        <section>
-            <nav class="menu-nav">
-                <img src="./src/assets/logo-salles 1.png" alt="logo-tipo">
-                <ul class="link-menu">
-                    <a href="#">Início</a>
-                    <a href="#">Perfil</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Clientes</a>
-                    <a href="#">Contato</a>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <div class="texto-banner">
-                <h1>Salles Contabilidade</h1>
-                <p>Experiência. Compromisso. Valor.</p>
-            </div>
-        </section>
+    <header id="home">
+        <nav class="navigation">
+            <img src="./assets/logo-salles.png"
+                alt="Logo da empresa Salles, composta por uma linha ascendente em forma de gráfico com uma seta apontando para cima, representando crescimento ou progresso. A palavra 'Salles' está escrita em letras maiúsculas, abaixo da linha, em uma cor laranja/dourada" />
+            <ul class="navigation-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="branding">
+            <h1 class="branding-title">Salles <br> Contabilidade</h1>
+            <p class="branding-subtitle">Experiência. Compromisso. Valor.</p>
+        </div>
     </header>
+    <main>
+        <div id="perfil" class="container">
+            <section class="company-profile">
+                <div class="company-profile-box-img">
+                    <img src="./assets/perfil.png"
+                        alt="Pessoa trabalhando em uma mesa de escritório, utilizando um notebook com gráficos e dados exibidos na tela. Há uma calculadora, anotações em papel, um envelope e uma xícara de café ao lado. Ambiente iluminado e organizado com plantas ao fundo."
+                        class="company-profile-box-img-image">
+                </div>
+                <div class="company-profile-box-texts">
+                    <h2 class="company-profile-box-texts-title">Perfil da empresa</h2>
+                    <p class="company-profile-box-texts-subtitle">Fundada em 1960, a Salles Contabilidade é uma empresa
+                        de serviços completos, oferecendo soluções acessíveis em contabilidade para pessoas e negócios
+                        locais e internacionais.</p>
+                    <div class="btn"> <a>Saiba Mais ></a></div>
 
+                </div>
+            </section>
+            <section id="servicos" class="services">
+                <h2 class="services-title">Nossos Serviços</h2>
+                <div class="services-content">
+                    <div class="services-content-list">
+                        <div class="services-content-box">
+                            <h2 class="services-content-box-number">01</h2>
+                            <div class="services-content-box-texts">
+                                <h2 class="services-content-box-texts-title">Preparação Fiscal</h2>
+                                <p class="services-content-box-texts-subtitle">Preparamos tudo o que você precisa para o
+                                    imposto de renda</p>
+                            </div>
+                        </div>
+                        <div class="services-content-box">
+                            <h2 class="services-content-box-number">02</h2>
+                            <div class="services-content-box-texts">
+                                <h2 class="services-content-box-texts-title">Pacote de Startup</h2>
+                                <p class="services-content-box-texts-subtitle">Criamos modelos financeiros que você pode
+                                    apresentar a investidores</p>
+                            </div>
+                        </div>
+                        <div class="services-content-box">
+                            <h2 class="services-content-box-number">03</h2>
+                            <div class="services-content-box-texts">
+                                <h2 class="services-content-box-texts-title">Gestão Patrimonial</h2>
+                                <p class="services-content-box-texts-subtitle">Fornecemos serviços inteligentes de
+                                    consultoria em investimentos</p>
+                            </div>
+                        </div>
+                        <div class="services-content-box">
+                            <h2 class="services-content-box-number">04</h2>
+                            <div class="services-content-box-texts">
+                                <h2 class="services-content-box-texts-title">Consultoria Fiscal</h2>
+                                <p class="services-content-box-texts-subtitle">Oferecemos suporte especializado para na
+                                    gestão de suas obrigações fiscais e tributárias</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-content-image">
+                        <img src="./assets/services.png"
+                            alt="Duas pessoas trabalhando em uma mesa, colaborando em documentos com anotações. Ambas utilizam laptops enquanto fazem anotações à mão em uma folha de papel. O ambiente é de escritório com foco em análise ou planejamento, com canetas e lápis sobre a mesa">
+                    </div>
+                </div>
+                <div class="btn services-content-btn"> <a>Saiba Mais ></a></div>
+            </section>
+
+        </div>
+        <section id="clientes" class="customers">
+            <h2>Nossos Clientes</h2>
+            <p class="customers-subtitle">Desde o começo, prestamos serviços de confiança a nossos clientes. Tivemos a
+                honra de sermos a primeira empresa na escolha das seguintes corporações:</p>
+            <div class="customers-list">
+                <div class="customers-list-item">
+                    <div class="customers-list-item-box">
+                        <img src="./assets/banco1.png" alt="">
+                    </div>
+                    <div class="customers-list-item-texts">
+                        <p>Banco the two</p>
+                    </div>
+                </div>
+                <div class="customers-list-item">
+                    <div class="customers-list-item-box">
+                        <img src="./assets/banco2.png" alt="">
+                    </div>
+                    <div class="customers-list-item-texts">
+                        <p>Banco the two</p>
+                    </div>
+                </div>
+                <div class="customers-list-item">
+                    <div class="customers-list-item-box">
+                        <img src="./assets/banco3.png" alt="">
+                    </div>
+                    <div class="customers-list-item-texts">
+                        <p>Banco the two</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="btn services-content-btn"> <a>Saiba Mais ></a></div>
+
+        </section>
+        <div class="container">
+            <section class="comments">
+                <h2 class="comments-title">"Contabilidade é a nossa paixão. Cuidaremos dela, para que você possa se
+                    concentrar nas suas."</h2>
+                <p class="comments-subtitle">— Juliano Costa, CEO</p>
+            </section>
+            <section id="contato" class="contact">
+                <div class="contact-box-img">
+                    <img src="./assets/contact.png" alt="">
+                </div>
+                <div class="contact-box">
+                    <div class="contact-box-item">
+                        <h2 class="contact-box-item-title">Endereço:</h2>
+                        <p class="contact-box-item-subtitle">Rua Virtual - Penha/SC</p>
+                    </div>
+                    <div class="contact-box-item">
+                        <h2 class="contact-box-item-title">Telefone:</h2>
+                        <p class="contact-box-item-subtitle">(47) 99197-8842</p>
+                    </div>
+                    <div class="contact-box-item">
+                        <h2 class="contact-box-item-title">Email:</h2>
+                        <p class="contact-box-item-subtitle">contato@jctecnologias.com.br</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/eujulianocosta" target="_blank"><img src="./assets/facebook.png"
+                    alt="" /></a>
+            <a href="https://www.instagram.com/eujulianocosta" target="_blank"><img src="./assets/instagram.png"
+                    alt="" /></a>
+            <a href="https://www.linkedin.com/in/eujulianocosta/" target="_blank"><img src="./assets/linkedin.png"
+                    alt="" /></a>
+            <a href="https://www.youtube.com/@eujulianocosta" target="_blank"><img src="./assets/youtube.png"
+                    alt="" /></a>
+            <p class="footer-subtitle">© JCTECNOLOGIAS Contabilidade - CNPJ 00010200202/10</p>
+        </div>
+    </footer>
+    <button id="scrollToTop" title="Voltar ao topo">⬆️</button>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
