@@ -63,7 +63,7 @@ Estruturar páginas de forma organizada.
 
 https://eujulianocosta.github.io/mp-landing-page-contabilidade/
 
-1 - Rolagem em JS para com ancoras para a pagina rolar para cada Menu.
-2 - Criado a bolinha em JS para que a pagina ao final volte ao inicio e quando chegue no banner rotativo ela desapareça.
-3 - Adicionado ao final da pagina no footer os links das redes sociais como target blank.
-4 - Adicionado border-radius nos BTN que estavam gigantes e diminuido os tamanhos de 30px para 20px.
+- Rolagem em JS para com ancoras para a pagina rolar para cada Menu.
+- Criado a bolinha em JS para que a pagina ao final volte ao inicio e quando chegue no banner rotativo ela desapareça.
+- Adicionado ao final da pagina no footer os links das redes sociais como target blank.
+- Adicionado border-radius nos BTN que estavam gigantes e diminuido os tamanhos de 30px para 20px.
